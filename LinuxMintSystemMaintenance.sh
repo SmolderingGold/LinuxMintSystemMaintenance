@@ -11,7 +11,7 @@ if ! sudo timeshift --create --tags O --comment "Weekly update $(date +%Y-%m-%d)
     
 else
     
-    echo "STEP 1 SUCCESS: Snapshot created. Proceeding to Updates."
+    echo "STEP 1 SUCCESS: Snapshot created. Proceeding to updates..."
     
     echo "STEP 2: Refreshing package lists..."
     sudo apt update
