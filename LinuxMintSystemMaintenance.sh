@@ -1,4 +1,5 @@
 #!/bin/bash
+
 echo "===→ Starting system maintenance ←==="
 
 echo "STEP 1: Attempting to create safety snapshot..."
